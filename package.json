@@ -1,0 +1,31 @@
+{
+  "name": "semantic-release-github-config",
+  "version": "0.0.1",
+  "description": "🦊 Semantic-release shareable config for GitHub.",
+  "main": "index.js",
+  "repository": "git@github.com:jack0pan/sr-github-config.git",
+  "author": "Jack <i@jackpan.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jack0pan/sr-github-config/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "github",
+    "conventional-changelog",
+    "release",
+    "semantic-release",
+    "semantic-release-config",
+    "version"
+  ],
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.3"
+  }
+}
