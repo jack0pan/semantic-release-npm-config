@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-github-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "🦊 Semantic-release shareable config for GitHub.",
   "main": "index.js",
   "repository": "git@github.com:jack0pan/semantic-release-npm-config.git",
