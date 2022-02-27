@@ -32,11 +32,11 @@ yarn add --dev semantic-release semantic-release-npm-config
 
 ### Configuration
 
-The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
+The shareable config can be configured in the [**release.config.js**](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration) file:
 
-```json
-{
-  "extends": "semantic-release-npm-config"
+```js
+module.exports = {
+  extends: "semantic-release-npm-config",
 }
 ```
 
