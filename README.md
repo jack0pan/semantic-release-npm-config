@@ -1,6 +1,16 @@
-# semantic-release-github-config
+# semantic-release-npm-config
 
-[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages with [GitHub](https://github.com).
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages.
+
+## Table of Contents
+
+- [Plugins](#plugins)
+- [Usage](#usage)
+- [Extension](#extension)
+- [License](#license)
 
 ## Plugins
 
@@ -11,24 +21,29 @@ This shareable configuration use the following plugins:
 - [`@semantic-release/changelog`](https://github.com/semantic-release/changelog)
 - [`@semantic-release/npm`](https://github.com/semantic-release/npm)
 - [`@semantic-release/git`](https://github.com/semantic-release/git)
-- [`@semantic-release/github`](https://github.com/semantic-release/github)
-
-## Install
-
-```bash
-yarn add --dev semantic-release semantic-release-github-config
-```
 
 ## Usage
+
+### Install
+
+```bash
+yarn add --dev semantic-release semantic-release-npm-config
+```
+
+### Configuration
 
 The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
 
 ```json
 {
-  "extends": "semantic-release-github-config"
+  "extends": "semantic-release-npm-config"
 }
 ```
 
-## Configuration
+## Extension
 
 See each [plugin](#plugins) documentation for required installation and configuration steps.
+
+## License
+
+[MIT](LICENSE)

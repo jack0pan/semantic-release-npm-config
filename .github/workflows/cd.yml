@@ -1,7 +1,5 @@
 name: Continuous Delivery
 on:
-  schedule:
-    - cron: '* 3 * * 2'
   workflow_dispatch:
 
 jobs:
