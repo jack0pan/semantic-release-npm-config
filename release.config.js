@@ -1,3 +1,4 @@
 module.exports = {
-  extends: "semantic-release-github-config"
+  extends: "semantic-release-npm-config",
+  plugins: ["@semantic-release/github"],
 }

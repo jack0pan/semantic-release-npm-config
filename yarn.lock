@@ -2753,15 +2753,14 @@ safe-buffer@~5.2.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release-github-config@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-github-config/-/semantic-release-github-config-0.0.1.tgz#a4bc9460ca1f1a1fdd19589de7cde8d702042453"
-  integrity sha512-s2Qmvgc5+gf+K96zvMHIwpSFKrQTHC+8CFzA3wSjv/ZwCQ4aMzhNmsWT90YrlqDiGCV0WP2v6xG99Y+0GYTGwA==
+semantic-release-npm-config@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-npm-config/-/semantic-release-npm-config-1.0.0.tgz#d03cc34a18c413b1e7ac01ea1ca29e66165a0012"
+  integrity sha512-in84HvX/uwGGZfUqU3Ea32gmk9HtKvqfVq3Nn03CMnJYfHoMQmrpemiDMP+SgHApEEUyt7Cfsineuq/ix51nug==
   dependencies:
     "@semantic-release/changelog" "^6.0.1"
     "@semantic-release/commit-analyzer" "^9.0.2"
     "@semantic-release/git" "^10.0.1"
-    "@semantic-release/github" "^8.0.2"
     "@semantic-release/npm" "^9.0.0"
     "@semantic-release/release-notes-generator" "^10.0.3"
 

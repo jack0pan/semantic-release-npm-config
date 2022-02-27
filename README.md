@@ -44,6 +44,36 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 See each [plugin](#plugins) documentation for required installation and configuration steps.
 
+### With github
+
+1. install the github plugin:
+```bash
+yarn add --dev @semantic-release/github
+```
+
+2. change `release.config.js`:
+```js
+module.exports = {
+  extends: "semantic-release-npm-config",
+  plugins: ["@semantic-release/github"],
+}
+```
+
+### With gitlab
+
+1. install the gitlab plugin:
+```bash
+yarn add --dev @semantic-release/gitlab
+```
+
+2. change `release.config.js` file:
+```js
+module.exports = {
+  extends: "semantic-release-npm-config",
+  plugins: ["@semantic-release/gitlab"],
+}
+```
+
 ## License
 
 [MIT](LICENSE)
